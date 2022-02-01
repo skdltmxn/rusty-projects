@@ -1,0 +1,10 @@
+[package]
+name = "wget"
+version = "0.1.0"
+edition = "2021"
+authors = ["skdltmxn <supershop@naver.com>"]
+
+[dependencies]
+clap = { version = "3.0.12", features = ["derive"] }
+reqwest = { version = "0.11" }
+tokio = { version = "1.15.0", features = ["full"] }
